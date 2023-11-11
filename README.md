@@ -1,13 +1,14 @@
 [![Stand With Palestine](https://raw.githubusercontent.com/TheBSD/StandWithPalestine/main/banner-no-action.svg)](https://TheBSD.github.io/StandWithPalestine/)
+![Stand With Palestine](https://github.com/TheBSD/poykott/blob/main/assets/images/banner.jpg?raw=true)]
 
 <div dir='rtl' align='right'>
 
 ## شركات أو خدمات إسرائيلية
 
 في
-[هذا الملف](./isreal-companies-services.json)
+[هذا الملف](./israel-companies-services.json)
 
-## شركات أو خدمات أعلنت دعمها للكيان
+## شركات أو خدمات أعلنت دعمها للكيان (لاحقًا)
 
 في
 [هذا الملف](./companies-support-isreal.json)

@@ -35,7 +35,7 @@ jobs:
 
       - name: push the changes
         run: |
-          git push https://${{ secrets.GIT_ACTION_TOKEN }}@github.com/AlwaysBeCalm/poykott.git
+          git push https://${{ secrets.GIT_ACTION_TOKEN }}@github.com/$GITHUB_REPOSITORY.git $GITHUB_REF_NAME:main
 
 
       # - name: push the generated file

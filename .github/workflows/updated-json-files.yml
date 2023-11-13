@@ -29,18 +29,10 @@ jobs:
           
           git add .
           git commit -m "automatically converted after editing companies-support-isreal.json and/or israel-companies-services.json"
-      
-      - name: print env vars
-        run: env | sort
 
-      - name: push the changes
-        run: |
-          git push https://${{ secrets.GIT_ACTION_TOKEN }}@github.com/$GITHUB_REPOSITORY.git $GITHUB_REF_NAME:main --atomic --force-with-lease
-
-
-      # - name: push the generated file
-      #   uses: ad-m/github-push-action@master
-      #   with:
-      #     github_token: ${{ secrets.GIT_ACTION_TOKEN }}
-      #     branch: main
-      #     force_with_lease: true
+      - name: push the generated file
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GIT_ACTION_TOKEN }}
+          branch: main
+          force_with_lease: true
